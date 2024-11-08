@@ -1,0 +1,12 @@
+{
+  "name": "pixaai",
+  "version": "1.0.0",
+  "description": "* This template uses tailwind css every tailwind class are prefixed with `tw-`, to help differentiate   between tailwind classes and other classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
