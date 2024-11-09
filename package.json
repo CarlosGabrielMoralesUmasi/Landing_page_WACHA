@@ -4,10 +4,13 @@
   "description": "* This template uses tailwind css every tailwind class are prefixed with `tw-`, to help differentiate   between tailwind classes and other classes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./css/index.css -o ./css/tailwind-build.css"
+    "start:tailwind": "tailwindcss -i ./css/tailwind.css -o ./css/tailwind-runtime.css --watch",
+    "build:tailwind": "tailwindcss -i ./css/tailwind.css -o ./css/tailwind-build2.css --minify"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
 }

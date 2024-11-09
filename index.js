@@ -53,12 +53,12 @@ function responsive() {
     if (window.innerWidth > RESPONSIVE_WIDTH) {
         collapseHeaderItems.style.height = ""
         navToggle.addEventListener("mouseenter", openNavDropdown)
-        navToggle.addEventListener("mouseleave", navMouseLeave)
+        // navToggle.addEventListener("mouseleave", navMouseLeave)
 
     } else {
         isHeaderCollapsed = true
         navToggle.removeEventListener("mouseenter", openNavDropdown)
-        navToggle.removeEventListener("mouseleave", navMouseLeave)
+        // navToggle.removeEventListener("mouseleave", navMouseLeave)
     }
 }
 responsive()

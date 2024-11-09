@@ -208,9 +208,6 @@ hr{
   cursor: pointer;
 }
 
-.btn:hover{
-}
-
 .btn:disabled{
   cursor: default;
 }
